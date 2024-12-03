@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>SkyHigh University</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Open+Sans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header id="top">
+        <a href="index.html"><img src="images/1xlogo.png" alt="logo" width="50" height="50" 
+            srcset="images/1xlogo.png 1x, images/2xlogo.png 2x, images/3xlogo.png 3x"></a>
+		<span>SkyHigh University</span>
+        <a href="#navlinks">&#9776;</a>
+	</header>
+    <header id="top2">
+        <a href="index.html"><img src="images/1xlogo.png" alt="logo" width="50" height="50" 
+            srcset="images/1xlogo.png 1x, images/2xlogo.png 2x, images/3xlogo.png 3x"></a>
+		<span>SkyHigh University</span>
+    </header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav id="navlinks">
+        <a href="#top">&#10005;</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">Register</a></li>
+            <li><a href="#">Faculty and Staff</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+<h1>Register for University</h1>
+<form method="get" action="thanks.html" class="my-form" autocomplete="on">
+<h3>Personal Information</h3>
+    <label>First Name: <input type="text" name="fname" autocomplete="given-name" required title="First Name Here"> </label>
+<label>Last Name: <input type="text" name="lname" autocomplete="family-name" required title="Last Name Here"> </label>
+<label>Email: <input type="email" name="email" autocomplete="email" required title="Your Email Please"> </label>
+<label>Cell Phone: <input type="tel" name="phone" autocomplete="tel" required title="Cell Phone Here"> </label>
+<h3>Previous School Information</h3>
+<label>School Type:
+    <select name="previous-school">
+        <option value="No Selection Made">Please Select</option>
+        <option value="mtn-vw">Mountain View High School</option>
+        <option value="tmp">Timpanogas High School</option>
+        <option value="orm-high">Orem High School</option>
+    </select>
+</label>
+<label>Graduation Date: <input type="date" name="grad-date"/></label>
+<h3>Communication Preferences</h3>
+<label><input type="radio" name="communication-type" value="txt">Text Message</label>
+<label><input type="radio" name="communication-type" value="phone">Phone Call</label>
+<label><input type="radio" name="communication-type" value="email">Email</label>
+
+<h3>Education Completed</h3>
+<label><input type="checkbox" name="GED">GED</label>
+<label><input type="checkbox" name="High School">High School Diploma</label>
+<label><input type="checkbox" name="Associates Degree">Associates Degree</label>
+<h3>Account Information</h3>
+<label>Username (5-10 letters)<input type="text" required minlength="5" maxlength="10" title="Please enter a username that is at least 5 characters long"></label>
+<label>Password (6 or more characters)<input type="password" name="password" required pattern="[A-Za-z0-9]{6,}" title="6 or more charcters please"></label>
+
+    <input type="submit" value="Register for University">
+</form>
+        
+      
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p> &copy; 2024 &bull; Alan Martinez-Diaz</p>
+    </footer>
+</div> <!-- end footer wrapper -->
+   
+</body>
+</html> 

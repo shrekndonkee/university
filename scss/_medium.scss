@@ -1,0 +1,31 @@
+/* NAVIGATION STUFF GOES HERE  */
+body{
+  display: block;
+}
+
+#top a, #navlinks > a{
+  display: none;
+}
+
+#top2{
+  display: block;
+}
+
+#top{
+  display: none;
+}
+
+nav {
+  height: auto;
+  border-bottom: 2px solid $greyColor;
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li a{
+    border:none;
+  }
+  li a:hover{
+    background-color: #eee;
+  }
+}
